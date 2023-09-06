@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Technical Documentation</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<nav id="navbar">
+		<header>
+			<p>Django Documentation</p>
+			<ul>
+				<li>Introduction</li>
+				<li>Creating A Virtual Environment</li>
+				<li>Installing Django In The Virtual Environment</li>
+				<li>Creating A Django Project</li>
+				<li>Creating A Django App</li>
+				<li>Creating Web App</li>
+			</ul>
+		</header>		
+	</nav>
+	<main id="main-doc">
+		<section>
+			<header>Introduction</header>
+			<article>
+				<p>
+					Django is a high-level full stack open source web framework written in Python, that encourages rapid development and clean, pragmatic design. Django comes with lots of advance functionalities baked in which saves developers a lot of time. The simplicity Django offers lets developers focus more on writing the app instead of rewriting the same wheel. Since it's release in 2003 Django has proven to be the most productive framework for Python developers to know more about Django read: Django – Web Framework For Perfectionists.
+				</p>
+				<p>
+					In this article, we will create the traditional "Hello, World!" app, which will basically display the string 'Hello, world!' in the browser. This might be your first Django app so pay close attention to the core principles of Django which we will discuss later in the article.
+				</p>
+			</article>
+		</section>
+
+		<section>
+			<header>Creating a Virtual Environment</header>
+			<article>
+				<p>
+					Though this is an optional step yet it is highly recommended to use virtual environments in your projects, to know why are virtual environments so important read: How To A Create Virtual Environment for Python.
+				</p>
+				<p>
+					In a nutshell, virtual environment lets you have an isolated space on your computer for different Python projects, ensuring that each of your projects can have its own set of dependencies and modules that won’t disrupt any of your other projects.
+				</p>
+				<p>
+					Let's kick off by creating a virtual environment for our hello world project.
+				</p>
+				<h3>For Windows</h3>
+				<code>
+					cd Desktopvirtualenv django<br>
+					cd djangoScripts<br>
+					\activate.bat<br>
+				</code>
+				<h3>For Mac and Unix</h3>
+				<code>
+					mkdir djangocd django<br>
+					python3 -m venv myenv<br>
+					source django/bin/activate<br>
+				</code>
+				<p>
+					Now you should see (django) prefixed in your terminal, which indicates that the virtual environment is successfully activated, if not then go through the guide again.
+				</p>
+			</article>
+		</section>
+
+		<section>
+			<header>Installing Django in the Virtual Environment</header>
+			<article>
+				<p>
+					Now, we need to install Django on our virtual environment.
+				</p>
+				<code>
+					pip install Django
+				</code>
+				<p>
+					This will install the latest version of Django in our virtual environment. To know more about Django installation read: <a href="#">How to Install Django</a>
+				</p>
+			</article>
+		</section>
+
+		<section>
+			<header>Creating a Django Project</header>
+			<article></article>
+		</section>
+
+		<section>
+			<header>Creating a Django App</header>
+			<article></article>
+		</section>
+
+		<section>
+			<header>Creating Web App</header>
+			<article></article>
+		</section>
+	</main>
+</body>
+</html>
