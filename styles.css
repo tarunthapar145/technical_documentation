@@ -26,17 +26,17 @@ html,body {
 	margin: 15px auto;
 }
 
-#navbar ul {
+#nav_headings {
 	padding: 0;
 }
 
-#navbar ul li {
+#nav_headings li {
 	list-style: none;
 	border-top: 1px solid black;
 	width: 100%;
 }
 
-li a {
+.nav-link {
 	display:block;
 	text-decoration: none;
 	color: #4d4f50;
@@ -48,6 +48,7 @@ li a {
 	margin-left: 310px;
 	padding: 20px;
 	margin-bottom: 110px;
+	display: block;
 }
 
 #main-doc header {
@@ -56,7 +57,7 @@ li a {
 	color: black;
 }
 
-section article {
+.main-section article {
 	margin: 15px;
 	font-size: 1em;
 }
@@ -75,17 +76,23 @@ code {
 }
 
 img {
-	max-width: 1000px;
+	max-width: 100%;
 	height: auto;
 	display: block;
 	margin: auto;
 }
 
-.indent {
-	margin: auto 20px;
+.project_files li {
+	list-style: none;
+	padding: 5px 0;
 }
 
-p span {
+.list_heading {
 	font-weight: bold;
 }
 
+.highlight {
+	background-color: #d9d9d9;
+	padding: 0 4px;
+	border-radius: 5px;
+}
