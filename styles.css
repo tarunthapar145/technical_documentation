@@ -12,8 +12,9 @@ html,body {
 	left: 0;
 	width:300px;
 	height: 100%;
-	border-right: 3px solid black;
+	/*border-right: 3px solid black;*/
 }
+
 #logo {
 	display: block;
 	margin: 15px auto;
@@ -95,4 +96,35 @@ img {
 	background-color: #d9d9d9;
 	padding: 0 4px;
 	border-radius: 5px;
+}
+
+@media (max-width:680px) {
+
+	#navbar {
+		position: relative;
+		top: 0;
+		left: 0;
+		width:100%;
+	}
+
+	#nav_headings {
+		width: 100%;
+		height: 200px;
+		border: 2px solid black;
+		overflow: scroll;
+	}
+
+	#main-doc {
+		position: absolute;
+		margin-left: 0;
+		padding: 5px;
+		display: block;	
+	}
+}
+
+@media (min-width:681px) {
+
+	#navbar {
+		border-right: 3px solid black;
+	}
 }
